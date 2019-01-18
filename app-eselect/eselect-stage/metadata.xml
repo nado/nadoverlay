@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>nado@troglodyte.be</email>
+		<name>Corentin Pazdera</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">nado/eselect-stage</remote-id>
+	</upstream>
+	<use>
+		<flag name="qemu">Pull qemu dependency for foreign arch bin execution</flag>
+	</use>
+</pkgmetadata>
